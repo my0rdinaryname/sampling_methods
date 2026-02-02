@@ -1,0 +1,26 @@
+Model,Sampling Technique,Accuracy (%)
+M1_LogisticRegression,Sampling1_RandomOver,93.46
+M2_DecisionTree,Sampling1_RandomOver,100.0
+M3_RandomForest,Sampling1_RandomOver,100.0
+M4_NaiveBayes,Sampling1_RandomOver,74.84
+M5_SVM,Sampling1_RandomOver,68.95
+M1_LogisticRegression,Sampling2_SMOTE,92.16
+M2_DecisionTree,Sampling2_SMOTE,96.73
+M3_RandomForest,Sampling2_SMOTE,99.02
+M4_NaiveBayes,Sampling2_SMOTE,85.95
+M5_SVM,Sampling2_SMOTE,68.63
+M1_LogisticRegression,Sampling3_RandomUnder,0.0
+M2_DecisionTree,Sampling3_RandomUnder,50.0
+M3_RandomForest,Sampling3_RandomUnder,25.0
+M4_NaiveBayes,Sampling3_RandomUnder,25.0
+M5_SVM,Sampling3_RandomUnder,0.0
+M1_LogisticRegression,Sampling4_SMOTETomek,92.91
+M2_DecisionTree,Sampling4_SMOTETomek,98.65
+M3_RandomForest,Sampling4_SMOTETomek,99.66
+M4_NaiveBayes,Sampling4_SMOTETomek,85.47
+M5_SVM,Sampling4_SMOTETomek,71.62
+M1_LogisticRegression,Sampling5_None,99.35
+M2_DecisionTree,Sampling5_None,98.06
+M3_RandomForest,Sampling5_None,99.35
+M4_NaiveBayes,Sampling5_None,98.06
+M5_SVM,Sampling5_None,99.35
